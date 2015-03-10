@@ -37,8 +37,8 @@ server {
 ```
 as per step 3. Your symlink should already be set up.
 3.3. Type nginx -t or sudo nginx -t to make sure your nginx config files have no errors, restart nginx.
-	* DO NOT FOLLOW STEP 4
-	* Ghost should run if you 'cd' to your Ghost root and type 'npm start'. If it doesn't, there is probably something wrong with your config/server block, or you are not in your Ghost root folder. While Ghost is running navigate to your domain and you should see your ghost website. If this works, use Ctrl+C in the command line to close Ghost and move on.
+	- DO NOT FOLLOW STEP 4
+	- Ghost should run if you 'cd' to your Ghost root and type 'npm start'. If it doesn't, there is probably something wrong with your config/server block, or you are not in your Ghost root folder. While Ghost is running navigate to your domain and you should see your ghost website. If this works, use Ctrl+C in the command line to close Ghost and move on.
 3.6. Go to: http://support.ghost.org/deploying-ghost/ and scroll down to the heading 'Init Script' and use this instead of step 4. Restart your server with 'sudo reboot'. Ghost should run on its own now.
 3.7. Don't forget to CONFIGURE Ghost once it is set up using the config.js in your Ghost root as per http://support.ghost.org/config/
 
